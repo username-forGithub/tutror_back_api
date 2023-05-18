@@ -3,7 +3,6 @@ class CreateTutors < ActiveRecord::Migration[7.0]
     create_table :tutors do |t|
       t.string :name
       t.text :description
-      t.text :image
       t.integer :price
 
       t.timestamps
