@@ -53,3 +53,5 @@ gem 'devise'
 gem 'devise-jwt'
 gem 'jsonapi-serializer'
 
+gem "aws-sdk-s3", require: false
+
