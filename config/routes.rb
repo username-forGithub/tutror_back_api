@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/', to: 'current_user#index'
+  # get '/', to: 'current_user#index'
   get '/current_user', to: 'current_user#index'
   devise_for :users, path: '', path_names: {
                                               sign_in: 'login',
@@ -17,5 +17,4 @@ Rails.application.routes.draw do
       resources :reservations
     end
   end
-
 end
